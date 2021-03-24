@@ -3,7 +3,7 @@
 input.onButtonPressed(Button.A, function () {
     pins.digitalWritePin(DigitalPin.P0, 1)
     basic.pause(100)
-    pins.digitalWritePin(DigitalPin.P1, 1)
+    pins.digitalWritePin(DigitalPin.P0, 1)
 })
 // pin0=red
 // pin1=green
