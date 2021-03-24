@@ -14,6 +14,7 @@ input.onButtonPressed(Button.AB, function () {
 })
 input.onButtonPressed(Button.B, function () {
     pins.digitalWritePin(DigitalPin.P0, 0)
+    basic.pause(100)
     pins.digitalWritePin(DigitalPin.P1, 0)
 })
 basic.forever(function () {
